@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+:root {
+    --main-bg-color: #bd6418;
+    --font1: system-ui,'SUSE Mono', cursive;
+    --font2: 'Roboto', sans-serif;
+}
+.center{
+    text-align: center;
+}
+
+.font1 {
+    font-family: var(--font1);
+    word-spacing: 10px;
+    
+    
+    
+}
+
+.font2 {
+    font-family: var(--font2);
+    word-spacing: 10px;
+    
+}
+
+.max-width-1 {
+    max-width: 80vw;
+    
+}
+
+
+.max-width-2 {
+    max-width: 60vw;
+
+}
+
+.m-auto {
+    margin: auto;
+}
+.mx-1{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.my-2{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.btn {
+    padding: 0px 20px;
+    padding-top: 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-family: var(--font1);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 8px;
+}
+
+.btn:hover {
+    color: white;
+    background: var(--main-bg-color);
+}
+
+.form-input {
+    padding: 0px 5px;
+    padding-top: 3px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font1);
+
+}
+.form-box input,textarea{
+    width: 52vw;
+    padding: 0px 6px;
+    margin: 7px 0px;
+    font-size: 18px;
+    font-family: var(--font1);
+    border-radius: 5px;
+    border: 2px solid var(--main-bg-color);
+
+}
